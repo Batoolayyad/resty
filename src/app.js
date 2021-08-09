@@ -22,6 +22,9 @@ class App extends React.Component {
   callApi = (requestParams) => {
     // mock output
     const data = {
+      Headers:{
+        "conten type": "string application/json"
+      },
       count: 2,
       results: [
         {name: 'fake thing 1', url: 'http://fakethings.com/1'},
