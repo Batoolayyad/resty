@@ -84,12 +84,50 @@ https://codesandbox.io/s/peaceful-sanderson-su6vu?file=/src/index.js
 ### Links:
 
 - git app Actions: https://github.com/Batoolayyad/resty/actions
-#### note:the last one is the working url for netlify
-- netlify: https://eloquent-shirley-f45232.netlify.app/
 
-- sandbox: https://codesandbox.io/s/snowy-rain-ghihq
+- sandbox 27: https://codesandbox.io/s/snowy-rain-ghihq
 
 - netlify: https://resty-app-react.netlify.app
+
+
+
+### UML:
+![UML](./UML27.PNG)
+
+
+## LAB 28 - Component Lifecycle / useEffect() Hook
+#### RESTy Phase 3: Connect RESTy with APIs, running live requests
+
+### Phase 3 Requirements
+In phase 3, we will be connecting RESTy to live APIs, fetching and displaying remote data. Our primary focus will be to service GET requests
+
+
+##### enter URL to an API and issue a GET request so that I can retrieve it’s data, and see the results returned from an API request in my browser in a readable format
+
+### Application Flow:
+
+- User enters an API URL
+- Chooses a REST Method
+- Clicks the “Go” button
+- Application fetches data from the URL given, with the method specified
+- Displays the response headers and results separately
+- Both headers and results should be “pretty printed” JSON
+
+
+### Links:
+
+- git app Actions: 
+
+
+
+
+- sandbox 28:
+
+
+
+
+- netlify: https://resty-app-react.netlify.app
+
 
 
 
