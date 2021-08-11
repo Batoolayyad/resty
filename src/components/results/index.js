@@ -21,7 +21,7 @@ function Results(props) {
 console.log(props.data)
   return (
     <section>
-     { props.data ?<><h2>Headers</h2><JSONPretty  data={props.data.headers}></JSONPretty><h2>Result</h2><JSONPretty data-testid="results" data={props.data}></JSONPretty></>  :  <Loading/>}
+     { props.data ?<><h2>Headers</h2><JSONPretty  data={props.data.headers}></JSONPretty><h2>Result</h2><JSONPretty  data={props.data}></JSONPretty></>  :  <Loading/>}
     </section>
     //  { props.data ?<JSONPretty data-testid="resultTest" data={props.data}></JSONPretty>  :  <Loading/>}
   )
