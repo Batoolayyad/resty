@@ -84,12 +84,12 @@ https://codesandbox.io/s/peaceful-sanderson-su6vu?file=/src/index.js
 ### Links:
 
 - git app Actions: https://github.com/Batoolayyad/resty/actions
-
+#### note:the last one is the working url for netlify
 - netlify: https://eloquent-shirley-f45232.netlify.app/
 
 - sandbox: https://codesandbox.io/s/snowy-rain-ghihq
 
-
+- netlify: https://resty-app-react.netlify.app
 
 
 
