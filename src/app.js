@@ -8,6 +8,7 @@ import Header from './components/header';
 import Footer from './components/footer';
 import Form from './components/form';
 import Results from './components/results';
+import JSONPretty from 'react-json-pretty';
 
 class App extends React.Component {
 

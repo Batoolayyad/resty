@@ -14,11 +14,14 @@
 
 import React from 'react'
 import Loading from '../loading/index'
+import JSONPretty from 'react-json-pretty';
+import 'react-json-pretty/themes/monikai.css';
+
 function Results(props) {
 
   return (
     <section>
-        <pre data-testid="resultTest">{props.data ? JSON.stringify(props.data, undefined, 2) : <Loading/>}</pre>
+        <JSONPretty id="json-pretty"  data-testid="resultTest" data={props.data ? JSON.stringify(props.data, undefined, 2) : 'Loading...'}/>
       </section>
   )
 }
