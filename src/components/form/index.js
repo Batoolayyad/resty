@@ -78,10 +78,10 @@ function Form(props) {
           <button type="submit" data-testid="formTest" >GO!</button>
         </label>
         <label className="methods">
-          <span id="get" onClick={handleRestMethod}>  GET  </span>
-          <span id="post" onClick={handleShowBox}>  POST  </span>
-          <span id="put" onClick={handleShowBox}>  PUT  </span>
-          <span id="delete" onClick={handleRestMethod}>  DELETE  </span>
+          <span id="get" className="meth" onClick={handleRestMethod}>  GET  </span>
+          <span id="post" className="meth" onClick={handleShowBox}>  POST  </span>
+          <span id="put" className="meth"onClick={handleShowBox}>  PUT  </span>
+          <span id="delete" className="meth" onClick={handleRestMethod}>  DELETE  </span>
         </label>
         {showBox && <textarea  rows='10' cols='40' onChange={handelBodyText} />}
       </form>

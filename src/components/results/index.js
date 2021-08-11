@@ -12,16 +12,17 @@
 
 // export default Results;
 
-import React from 'react'
+import React from 'react';
 import JSONPretty from 'react-json-pretty';
+import Loading from './loading/index';
 import 'react-json-pretty/themes/monikai.css';
 
 function Results(props) {
 
   return (
-    <section>
-        <JSONPretty id="json-pretty"  data-testid="resultTest" data={props.data ? JSON.stringify(props.data, undefined, 2) : 'Loading...'}/>
-      </section>
+    <>
+     { props.data ?<JSONPretty data-testid="results"data={props.data}></JSONPretty>  :  <Loading/>}
+    </>
   )
 }
 
