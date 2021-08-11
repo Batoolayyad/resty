@@ -1,7 +1,10 @@
 import React from 'react';
+
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import './app.scss';
+
+
 import Header from './components/header';
 import Footer from './components/footer';
 import Form from './components/form';
@@ -15,22 +18,29 @@ function App() {
 
   useEffect(async () => {
     setData(null);
+
     if (requestBody) {
+
+
       const result = await axios[requestParams.method](requestParams.url, JSON.parse(requestBody));
       const data = { headers: result.headers, count: result.data.count, results: result.data }
       setData(data);
-    } else {
+    }else {
+
+
       const result = await axios[requestParams.method](requestParams.url);
-      console.log('staf',result)
+      console.log('staf', result)
       const data = { headers: result.headers, count: result.data.count, results: result.data }
       setData(data);
     }
   }, [requestParams]);
 
   function callApi(requestParams, requestBody) {
-    setRequestParams(requestParams);
     setRequestBody(requestBody);
+    setRequestParams(requestParams);
   }
+
+
   return (
     <>
       <Header />
