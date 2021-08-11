@@ -18,7 +18,7 @@ function Results(props) {
 
   return (
     <section>
-        <pre data-testid="resultTest">{props.data ? JSON.stringify(props.data, undefined, 2) : <Loading/>}</pre>
+        <pre  data-testid="resultTest">{props.data ? JSON.stringify(props.data, undefined, 2) : <Loading/>}</pre>
       </section>
   )
 }
