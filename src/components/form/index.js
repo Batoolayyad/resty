@@ -77,7 +77,7 @@ function Form(props) {
           <input name='url' type='text' onChange={handlerUrl} />
           <button type="submit" data-testid="formTest" >GO!</button>
         </label>
-        <label className="restMethods">
+        <label className="methods">
           <span id="get" onClick={handleRestMethod}>  GET  </span>
           <span id="post" onClick={handleShowBox}>  POST  </span>
           <span id="put" onClick={handleShowBox}>  PUT  </span>
