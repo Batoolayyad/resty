@@ -21,7 +21,7 @@ function Results(props) {
 
   return (
     <>
-     { props.data ?<JSONPretty data-testid="results"data={props.data}></JSONPretty>  :  <Loading/>}
+     { props.data ?<JSONPretty data-testid="resultTest" data={props.data}></JSONPretty>  :  <Loading/>}
     </>
   )
 }
