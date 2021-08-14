@@ -136,6 +136,12 @@ https://codesandbox.io/s/jolly-gareth-xk1om
 
 
 
+
+
+## LAB 29- Advanced State with Reducers
+
+##### RESTy Phase 4: Track History
+
 ### Phase 4 Requirements
  tracking every API call and storing it in history
 
@@ -154,14 +160,19 @@ https://codesandbox.io/s/jolly-gareth-xk1om
 
 ### Links:
 
-- git app Actions: 
+- git app Actions: https://github.com/Batoolayyad/resty/actions
 
 
 
 
-- sandbox 28:
+- sandbox 28:https://codesandbox.io/s/nifty-napier-ioit2
 
 
 
+- netlify: https://resty-app-react.netlify.app
 
+
+
+### UML:
+![UML](./UML29.PNG)
 
